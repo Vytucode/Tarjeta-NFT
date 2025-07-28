@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Enlazar con css -->
+  <link rel="stylesheet" href="../src/output.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Tarjeta NFT</title>
+
+</head>
+
+<body class="bg-Blue-950-main-BG text-white h-screen grid place-content-center ">
+  <!-- ------------------------------------------- -->
+  <main>
+    <div class="w-[327px] bg-Blue-900-card-BG p-6 rounded-[15px]">
+      <!-- Sobre el padre ponemos un group y agrupamos a los 2 -->
+      <div class="relative mb-6 group">
+        <img class="rounded-lg " src="../assets/images/image-equilibrium.jpg" alt="image-equilibrium">
+        <!-- Al estar escondido hacemos un group al segundo elemento -->
+        <div
+          class="bg-Cyan-400/50 absolute top-0 w-full h-full place-content-center rounded-lg hidden cursor-pointer group-hover:grid">
+          <img src="../assets/images/icon-view.svg" alt="icon-view">
+        </div>
+      </div>
+      <h2 class="font-semibold text-[1.22em] mb-3 hover:text-Cyan-400 cursor-pointer">EQUILIBRE #1980</h2>
+
+      <p class="text-Blue-500 mb-4">La felicidad está en el equilibrio, no en la intensidad.
+      </p>
+      <!-- ------------------------------------------- -->
+      <!-- place-content-between nos brinda un espacio entre -->
+      <div class="flex place-content-between mb-4">
+        <!-- Con flex se pone uno a lado del otro -->
+        <div class="flex gap-1.5 items-center">
+          <img src="../assets/images/icon-ethereum.svg" alt="icon-ethereum">
+          <p class="text-Cyan-400">0.0488 EC</p>
+        </div>
+
+        <div class="flex gap-1.5 items-center">
+          <img src="../assets/images/icon-clock.svg" alt="icon-clock">
+          <p class="text-Blue-500">Queda 3 dias</p>
+        </div>
+      </div>
+      <!-- ------------------------------------------- -->
+      <hr class="text-Blue-800-line mb-4">
+      <div class="flex items-center gap-4">
+        <img class="w-[33px] h-[33px] rounded-full" src="../assets/images/Alex tech.jpg" alt="">
+        <p class="text-Blue-500"> Creación de <span class="text-White cursor-pointer hover:text-Cyan-400">Alex Brito
+            Muñoz</span></p>
+      </div>
+    </div>
+  </main>
+  <!-- ------------------------------------------- -->
+
+</body>
+
+</html>
